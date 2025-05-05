@@ -19,7 +19,7 @@ go build -o gophkeeper-server ./cmd/server
 ./gophkeeper-server -c config.json
 ```
 
-## ⚙️ Переменные окружения
+## Переменные окружения
 
 Можно использовать `.env` или переменные окружения напрямую:
 

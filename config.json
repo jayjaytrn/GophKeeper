@@ -1,0 +1,9 @@
+{
+  "server_address": "localhost:8080",
+  "enable_https": false,
+  "database_dsn": "postgres://postgres:postgres@localhost:5432/poghkeeper?sslmode=disable",
+  "jwt_secret": "supersecretkey",
+  "token_ttl": "15m",
+  "log_level": "debug",
+  "storage_type": "postgres"
+}

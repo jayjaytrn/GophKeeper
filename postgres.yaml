@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:14
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres       # имя пользователя
+      POSTGRES_PASSWORD: postgres   # пароль пользователя
+      POSTGRES_DB: poghkeeper          # имя базы данных
+    ports:
+      - "5432:5432"                       # проброс порта для подключения
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # хранение данных на хосте
+volumes:
+  postgres_data:

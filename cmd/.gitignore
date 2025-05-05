@@ -1,0 +1,16 @@
+# IDE settings
+.idea/
+
+# Go coverage report
+coverage
+coverage.out
+
+# Executables
+*.exe
+
+# Auth cookies
+cmd/client/auth.cookie
+
+# Git internal modules
+*.iml
+*.xml
